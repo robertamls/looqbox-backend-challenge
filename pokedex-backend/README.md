@@ -2,8 +2,8 @@
 Api, Pokedex, que consome a pokeapi.
 
 ## Stack
-- Java 17
-- Gradle
+- Java 17;
+- Gradle;
 - SpringBoot;
 - SpringDataJPA;
 - Postgres.
