@@ -9,6 +9,10 @@ import Card from './Card';
 
 class App extends React.Component {
 
+  componentDidMount(){
+    document.title = "Pokedex"
+  }
+
   constructor(props) {
     super(props);
     this.state = {
@@ -58,7 +62,7 @@ class App extends React.Component {
           </div>
           <div className='filtros'>
             <div className="text-filtro">
-              <TextField className="text-field" label="Realize a busca por nome completo ou as suas iniciais." color="secondary" focused
+              <TextField className="text-field" label="Insira o nome, e clique no Charmander." color="secondary" focused
                 value={this.state.pokemonValue} onChange={(e) => {
                   this.controlField(e);
                 }} />
